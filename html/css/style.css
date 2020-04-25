@@ -1,0 +1,160 @@
+        *, :after , :before{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+.navbar-wrapper {
+  top: 0;
+  right: 0;
+  left: 0;
+	z-index: 20;
+	height:120px;
+	background: transparent;
+	height:70px; 
+	position:fixed;
+}
+/* .navigation-top{ */
+	/* padding-bottom:30px; */
+/* } */
+.navigation .navbar-right {
+    margin-top: 33px;
+	float: right!important;
+    margin-right: -15px;
+}
+.navbar-nav>li>a{
+	color:#fff;
+	padding:10px 15px;
+	font-size:13px;
+}
+.navbar-nav>li>a:hover{
+	/* background-color:#c13774; */
+	background-color: #a42959;
+	border-radius: 3px;
+}
+.pinkbg {
+    background-color: rgba(192,44,105,.8588235294117647)!important;
+}
+.navbar-brand {
+    width: 160px;
+    margin-left: 0!important;
+    padding: 20px 0;
+}
+.menubox_button {
+    padding-right: 0;
+    padding-left: 0;
+}
+.navbar-header{
+    height: 100px!important;
+}
+.navbar-toggle {
+    float: left!important;
+}
+.navbar-header .navbar-brand {
+    margin-left: 15px!important;
+	padding-bottom:30px;
+	}
+.navbar-header .navbar-toggle .icon-bar {
+    background-color: #fff!important;
+}
+///
+.home-banner-section{
+	margin-top:30px;
+	position:relative;
+}
+.home-banner-section .item:before{
+	background:linear-gradient(to bottom,rgba(192,44,105,.8) 20%,rgba(238,123,55,.8) 80%);
+	content:"";
+	height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.banner-product-logo-header span {
+    /* font-size: 30px; */
+}
+.carousel-caption {
+	text-align:left;
+}
+.main_heading_text{
+	font-size:60px;
+    float: left;
+	line-height:60px;
+	margin-bottom:10px;
+	font-weight:700;
+	margin-left:20px;
+}
+.small_heading_text{
+	font-size:25px;
+	float: left;
+    padding-left: 22px;
+	font-weight:400;
+}
+.expo2020_logo img {
+    width:30%;
+	float:left;
+}
+.banner-product-header{
+    /* text-align: center; */
+}
+.banner-product-logo-header p {
+    
+    color: #fff;
+    font-size: 30px;
+	margin:0 0 30px;
+	line-height: 64px;
+	overflow:hidden;
+	/* margin-bottom:150px; */
+}
+.pink_border_btn {
+    border: 1px solid #c13774;
+    padding: 10px 35px;
+    border-radius: 3px;
+    background-color: #fff;
+	padding: 16px 35px;
+	font-size: 16px;
+    color: #c13774;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.pink_border_btn:hover{
+	background-color:#c13774;
+	color:#fff;
+}
+.carousel-indicators li {
+    width: 15px;
+    height: 15px;
+    margin: 13px;
+    background-color: rgba(255,255,255,.51);
+    border: 1px solid rgba(255,255,255,.51);
+}
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 13px;
+    background-color: #fff;
+}
+@media (max-width: 767px) and (min-width: 320px){
+	.navigation-top {
+		background-color: #c13774!important;
+	}
+	.navbar-header .navbar-toggle {
+		margin-top: 33px;
+	}
+}
+@media (max-width: 767px){
+	.product-header-section .navbar-toggle {
+		border-color: transparent;
+		padding: 9px 15px;
+		margin-right: 0;
+	}
+	
+}
+@media (max-width: 1199px) and (min-width: 1025px){
+.banner-product .expo2020_logo {
+    width: 220px;
+	}
+}
+@media (max-width: 767px) and (min-width: 401px){
+	.navbar-header button, .navbar-toggle {
+		margin-top: 33px;
+	}
+}
